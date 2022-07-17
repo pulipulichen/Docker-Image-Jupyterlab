@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "up": "docker-compose build && docker-compose up",
+    "bash": "docker-compose build && docker-compose run app bash"
+  }
+}

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: .
+    volumes:
+      - "./work:/home/jovyan/work"
+    environment:
+      #- TZ=${TZ}
+      #- LANG=${LANG}
+      - JUPYTER_TOKEN=password
+    ports:
+      - "8888:8888"
