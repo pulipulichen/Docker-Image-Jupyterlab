@@ -26,3 +26,14 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 ````
+
+# How to install Node.js's package
+
+1. Create a Python notebook.
+2. Execute installation command:
+
+````
+!npm i <package>
+````
+
+3. Create a Node.js notebook and start to use the package.
